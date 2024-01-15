@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.todo {
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  width: 800px;
+  font-size: 24px;
+}
+.todo__top {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: rgb(243, 241, 241);
+  margin-bottom: 50px;
+}
+.todo__list {
+}
+.todo__inp {
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.todo__time {
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.todo__btns {
+}
+.btnedd {
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.todo__body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.todo__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.text {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.time {
+  color: rgb(158, 151, 151);
+}
+input.checkbox {
+  width: 30px;
+  height: 30px;
+}
+.todo__bottom {
+  padding: 30px;
+  border-top: 1px solid black;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnclear {
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(172, 164, 164);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.todo__count {
+  font-weight: 800;
+}
