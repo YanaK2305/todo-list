@@ -25,6 +25,45 @@
         </div>
       </div>
     </div>
+
+    <template class="temp">
+      <div class="todo__item">
+        <div>
+          <div class="text"></div>
+          <div class="time"></div>
+        </div>
+        <div class="todo__row">
+          <input class="checkbox" type="checkbox" />
+          <button class="edit">
+            <img src="./icons8-.svg" alt="" />
+          </button>
+          <button class="delete">x</button>
+        </div>
+      </div>
+    </template>
+    <!-- template шаблон разметки, который не отображается на странице-->
+    <div class="modal__wrapper hidden">
+      <div class="modal">
+        <button class="close">x</button>
+        <h2 class="modal__title">Редактирование</h2>
+        <div class="modal__column">
+          <div class="modal__inp">
+            <p class="modal__text">Изменить дело</p>
+            <input
+              type="text"
+              class="todo__inp new__text"
+              placeholder="Введите дело"
+            />
+          </div>
+
+          <div class="modal__inp">
+            <p class="modal__text">Изменить время</p>
+            <input type="time" class="todo__time new__time" />
+          </div>
+        </div>
+        <button class="save">Сохранить</button>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
